@@ -17,7 +17,7 @@ Add the following line into `.gitignore` file
 Download `.editorconfig` file
 
 ```
-curl -fsSL https://editorconfig.javanile.org/.editorconfig
+curl -fsSL https://editorconfig.javanile.org/dev/php
 ```
 
 ### Makefile
@@ -33,10 +33,14 @@ init: editorconfig
 
 ## Download `.editorconfig` file
 editorconfig:
-    curl -fsSL https://editorconfig.javanile.org/.editorconfig
+    curl -fsSL https://editorconfig.javanile.org/dev/php
 ```
 
 ## Good to know
+
+### See more
+
+- <https://github.com/vinibrsl/editorconfig-templates>
 
 ### Contributing
 

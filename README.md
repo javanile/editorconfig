@@ -17,7 +17,7 @@ Add the following line into `.gitignore` file
 Download `.editorconfig` file
 
 ```
-curl -fsSL https://editorconfig.javanile.org/lib/php
+curl -so .editorconfig https://editorconfig.javanile.org/lib/php
 ```
 
 ### Makefile
@@ -33,7 +33,7 @@ init: editorconfig
 
 ## Download `.editorconfig` file
 editorconfig:
-    curl -fsSL https://editorconfig.javanile.org/lib/php
+    curl -so .editorconfig https://editorconfig.javanile.org/lib/php
 ```
 
 ## Good to know
